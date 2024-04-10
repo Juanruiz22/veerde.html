@@ -1,0 +1,373 @@
+
+header {
+  background-color: #F0F8FF;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+img {
+  display: inline-block; 
+  vertical-align: middle;
+}
+
+nav {
+  background-color: #4fe95c; 
+  color: #fff; 
+  padding: 10px;
+}
+
+ul.menu {
+  list-style-position: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu li {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+ul.menu li a {
+  color: #fff; 
+  text-decoration: none; 
+  padding: 5px 10px;
+}
+
+ul.menu li a:hover {
+  background-color: #c9e045;
+  color: #0e0404; 
+}
+Sure, here is the CSS code for the HTML you provided:
+
+CSS
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #F0F8FF; /* Light blue background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+img {
+  display: inline-block; /* Display the image inline */
+  vertical-align: middle; /* Vertically align the image with the text */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Banner section styles */
+.banner {
+  text-align: center;
+}
+
+.banner img {
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.banner a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  background-color: #0056b3;
+}
+
+/* Nosotros section styles */
+.nosotros {
+  text-align: left;
+}
+
+.nosotros h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Servicios section styles */
+.servicios {
+  text-align: left;
+}
+
+.servicios h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.servicios ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.servicios li {
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+CSS
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #F0F8FF; /* Light blue background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Contacto (Contact) section styles */
+.contacto {
+  text-align: left;
+}
+
+.contacto h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+.contacto form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.contacto .form-group {
+  margin-bottom: 15px;
+}
+
+.contacto label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contacto textarea {
+  height: 100px;
+}
+
+.contacto button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contacto button:hover {
+  background-color: #0056b3;
+}
+
+/* Contact information styles */
+.contacto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+}
+
+.contacto address {
+  font-style: italic;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #F0F8FF; /* Light blue background */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Preguntas frecuentes (FAQ) section styles */
+.preguntas-frecuentes {
+  text-align: left;
+}
+
+.preguntas-frecuentes h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.preguntas-frecuentes p {
+  margin-bottom: 10px;
+}
+
+/* FAQ list styles */
+.preguntas-frecuentes ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preguntas-frecuentes li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.preguntas-frecuentes h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* FAQ answer styles */
+.preguntas-frecuentes ul ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.preguntas-frecuentes ul ul li {
+  margin-bottom: 5px;
+}
+
+/* Contact form styles */
+.preguntas-frecuentes form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.preguntas-frecuentes .form-group {
+  margin-bottom: 15px;
+}
+
+.preguntas-frecuentes label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.preguntas-frecuentes input,
+.preguntas-frecuentes textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.preguntas-frecuentes textarea {
+  height: 100px;
+}
+
+.preguntas-frecuentes button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.preguntas-frecuentes button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
